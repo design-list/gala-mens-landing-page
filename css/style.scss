@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap");
 body {
   font-family: "Fira Sans", sans-serif;
-  color: #707070;
+  color: white !important;
   background-color: white;
 }
 
@@ -76,6 +76,7 @@ header {
 .loader-icon {
   width: 200px;
 }
+#eapps-instagram-feed-1 .eapps-instagram-feed-header{background-color: white !important;}
 main {
   .diya-label {
     position: relative;
@@ -204,13 +205,13 @@ main {
     }
 
     &.ps4 {
-      background-color: rgb(32, 51, 84) !important;
+      // background-color: rgb(32, 51, 84) !important;
       ul {
         li {
           button {
             font-size: 1.3rem;
             font-family: var(--firasans);
-            color: white;
+            color: black;
 
             &:hover {
               color: #ffcb06;
@@ -337,7 +338,7 @@ main {
 }
 
 footer {
-  background-color: #ffcb06 !important;
+  background-color: #EA6D1E !important;
 
   ul {
     display: flex;
@@ -372,7 +373,7 @@ footer {
     a {
       text-decoration: none;
       font-size: 12px;
-      color: #707070;
+      color: white;
     }
   }
 }
