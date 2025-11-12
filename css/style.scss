@@ -76,7 +76,9 @@ header {
 .loader-icon {
   width: 200px;
 }
-#eapps-instagram-feed-1 .eapps-instagram-feed-header{background-color: white !important;}
+#eapps-instagram-feed-1 .eapps-instagram-feed-header {
+  background-color: white !important;
+}
 main {
   // .diya-label {
   //   position: relative;
@@ -118,8 +120,8 @@ main {
     width: 6rem;
   }
 
-  .glass-icon{
-    width: 4rem;
+  .glass-icon {
+    width: 3rem;
   }
 
   .animate-icons {
@@ -148,6 +150,7 @@ main {
     &.ps2 {
       position: relative;
       text-align: center;
+
       a {
         position: absolute;
         text-decoration: none;
@@ -192,6 +195,7 @@ main {
         top: 71%;
         left: 23%;
       }
+
       a.tablivingroom {
         top: 38%;
         left: 41%;
@@ -205,6 +209,53 @@ main {
       a.tabbalcony {
         top: 21%;
         left: 26%;
+      }
+
+      .icons-style {
+        position: absolute;
+        width: 4rem;
+        &.icon1 {
+          left: 5%;
+          top: 52%;
+          transform: rotate(28deg);
+        }
+
+        &.icon2 {
+          left: 8%;
+          top: 12%;
+          transform: rotate(328deg);
+        }
+
+        &.icon3 {
+          right: 6%;
+          top: 18%;
+          transform: rotate(45deg);
+        }
+
+        &.icon4 {
+          left: 8%;
+          bottom: 12%;
+          transform: rotate(-328deg);
+        }
+
+        &.icon5 {
+          right: 4%;
+          bottom: 42%;
+          transform: rotate(340deg);
+        }
+        &.icon6 {
+          right: 10%;
+          bottom: 5%;
+          transform: rotate(340deg);
+        }
+      }
+    }
+
+    &.p3 {
+      h2 {
+        display: flex;
+        justify-content: center;
+        align-items: self-end;
       }
     }
 
@@ -342,7 +393,7 @@ main {
 }
 
 footer {
-  background-color: #EA6D1E !important;
+  background-color: #ea6d1e !important;
 
   ul {
     display: flex;
@@ -518,6 +569,32 @@ canvas {
 
   footer .de-li a {
     font-size: 10px;
+  }
+  main section.ps2 .icons-style{    width: 2rem;}
+  main section.ps2 .icons-style.icon2 {
+    top: 5%;
+  }
+  main section.ps2 .icons-style.icon3 {
+           right: 8%;
+        top: -6%;
+    transform: rotate(-14deg);
+  }
+  main section.ps2 .icons-style.icon4 {
+    left: 43%;
+    bottom: -45px;
+    transform: rotate(-369deg);
+  }
+  main section.ps2 .icons-style.icon1 {
+           right: 9%;
+        left: inherit;
+        bottom: -7%;
+        top: inherit;
+        transform: rotate(28deg);
+  }
+  main section.ps2 .icons-style.icon5 {
+    left: 0%;
+    bottom: -3rem;
+    transform: rotate(340deg);
   }
 }
 

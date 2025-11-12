@@ -91,7 +91,7 @@ main .man-happy {
   width: 6rem;
 }
 main .glass-icon {
-  width: 4rem;
+  width: 3rem;
 }
 main .animate-icons {
   position: absolute;
@@ -149,6 +149,45 @@ main section.ps2 a.tabdining {
 main section.ps2 a.tabbalcony {
   top: 21%;
   left: 26%;
+}
+main section.ps2 .icons-style {
+  position: absolute;
+  width: 4rem;
+}
+main section.ps2 .icons-style.icon1 {
+  left: 5%;
+  top: 52%;
+  transform: rotate(28deg);
+}
+main section.ps2 .icons-style.icon2 {
+  left: 8%;
+  top: 12%;
+  transform: rotate(328deg);
+}
+main section.ps2 .icons-style.icon3 {
+  right: 6%;
+  top: 18%;
+  transform: rotate(45deg);
+}
+main section.ps2 .icons-style.icon4 {
+  left: 8%;
+  bottom: 12%;
+  transform: rotate(-328deg);
+}
+main section.ps2 .icons-style.icon5 {
+  right: 4%;
+  bottom: 42%;
+  transform: rotate(340deg);
+}
+main section.ps2 .icons-style.icon6 {
+  right: 10%;
+  bottom: 5%;
+  transform: rotate(340deg);
+}
+main section.p3 h2 {
+  display: flex;
+  justify-content: center;
+  align-items: self-end;
 }
 main section.ps4 ul li button {
   font-size: 1.3rem;
@@ -249,7 +288,7 @@ main .spinner-item--3 {
 }
 
 footer {
-  background-color: #EA6D1E !important;
+  background-color: #ea6d1e !important;
 }
 footer ul {
   display: flex;
@@ -405,6 +444,34 @@ canvas {
   }
   footer .de-li a {
     font-size: 10px;
+  }
+  main section.ps2 .icons-style {
+    width: 2rem;
+  }
+  main section.ps2 .icons-style.icon2 {
+    top: 5%;
+  }
+  main section.ps2 .icons-style.icon3 {
+    right: 8%;
+    top: -6%;
+    transform: rotate(-14deg);
+  }
+  main section.ps2 .icons-style.icon4 {
+    left: 43%;
+    bottom: -45px;
+    transform: rotate(-369deg);
+  }
+  main section.ps2 .icons-style.icon1 {
+    right: 9%;
+    left: inherit;
+    bottom: -7%;
+    top: inherit;
+    transform: rotate(28deg);
+  }
+  main section.ps2 .icons-style.icon5 {
+    left: 0%;
+    bottom: -3rem;
+    transform: rotate(340deg);
   }
 }
 @media (max-width: 768px) {
