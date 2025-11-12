@@ -75,27 +75,6 @@ header {
 main {
   /* Spinner Animation */
 }
-main .diya-label {
-  position: relative;
-  overflow: hidden;
-}
-main .diya-label::after, main .diya-label::before {
-  content: "";
-  background: url("../img/mens/beard-gif.gif");
-  background-repeat: repeat;
-  background-size: 40px 40px;
-  width: 45px;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: rotate(360deg);
-}
-main .diya-label::before {
-  right: 0;
-  left: inherit;
-  z-index: 9;
-}
 main .hangingdiya {
   position: absolute;
   z-index: 9;
@@ -110,6 +89,9 @@ main .man-walk-gif {
 }
 main .man-happy {
   width: 6rem;
+}
+main .glass-icon {
+  width: 4rem;
 }
 main .animate-icons {
   position: absolute;
@@ -190,7 +172,7 @@ main section.ps4 .owl-carousel .owl-nav button.owl-next,
 main section.ps4 .owl-carousel .owl-nav button.owl-prev,
 main section.ps4 .owl-carousel button.owl-dot {
   font-size: 2rem;
-  color: white;
+  color: black;
 }
 main section.ps4 .video-loader {
   position: absolute;

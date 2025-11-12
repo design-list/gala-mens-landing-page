@@ -78,28 +78,28 @@ header {
 }
 #eapps-instagram-feed-1 .eapps-instagram-feed-header{background-color: white !important;}
 main {
-  .diya-label {
-    position: relative;
-    overflow: hidden;
-    &::after,
-    &::before {
-      content: "";
-      background: url("../img/mens/beard-gif.gif");
-      background-repeat: repeat;
-      background-size: 40px 40px;
-      width: 45px;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      transform: rotate(360deg);
-    }
-    &::before {
-      right: 0;
-      left: inherit;
-      z-index: 9;
-    }
-  }
+  // .diya-label {
+  //   position: relative;
+  //   overflow: hidden;
+  //   &::after,
+  //   &::before {
+  //     content: "";
+  //     background: url("../img/mens/beard-gif.gif");
+  //     background-repeat: repeat;
+  //     background-size: 40px 40px;
+  //     width: 45px;
+  //     height: 100%;
+  //     position: absolute;
+  //     top: 0;
+  //     left: 0;
+  //     transform: rotate(360deg);
+  //   }
+  //   &::before {
+  //     right: 0;
+  //     left: inherit;
+  //     z-index: 9;
+  //   }
+  // }
 
   .hangingdiya {
     position: absolute;
@@ -116,6 +116,10 @@ main {
   }
   .man-happy {
     width: 6rem;
+  }
+
+  .glass-icon{
+    width: 4rem;
   }
 
   .animate-icons {
@@ -243,7 +247,7 @@ main {
       .owl-carousel .owl-nav button.owl-prev,
       .owl-carousel button.owl-dot {
         font-size: 2rem;
-        color: white;
+        color: black;
       }
 
       .video-loader {
