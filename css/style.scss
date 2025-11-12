@@ -570,14 +570,17 @@ canvas {
   footer .de-li a {
     font-size: 10px;
   }
-  main section.ps2 .icons-style{    width: 2rem;}
+  main section.ps2 .icons-style {
+    width: 2rem;
+  }
   main section.ps2 .icons-style.icon2 {
     top: 5%;
   }
   main section.ps2 .icons-style.icon3 {
-           right: 8%;
-        top: -6%;
+    right: 8%;
+    top: -6%;
     transform: rotate(-14deg);
+    display: none;
   }
   main section.ps2 .icons-style.icon4 {
     left: 43%;
@@ -585,16 +588,19 @@ canvas {
     transform: rotate(-369deg);
   }
   main section.ps2 .icons-style.icon1 {
-           right: 9%;
-        left: inherit;
-        bottom: -7%;
-        top: inherit;
-        transform: rotate(28deg);
+    right: 9%;
+    left: inherit;
+    bottom: -7%;
+    top: inherit;
+    transform: rotate(28deg);
   }
   main section.ps2 .icons-style.icon5 {
     left: 0%;
     bottom: -3rem;
     transform: rotate(340deg);
+  }
+  main .man-happy {
+    width: 3rem;
   }
 }
 

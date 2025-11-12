@@ -455,6 +455,7 @@ canvas {
     right: 8%;
     top: -6%;
     transform: rotate(-14deg);
+    display: none;
   }
   main section.ps2 .icons-style.icon4 {
     left: 43%;
@@ -472,6 +473,9 @@ canvas {
     left: 0%;
     bottom: -3rem;
     transform: rotate(340deg);
+  }
+  main .man-happy {
+    width: 3rem;
   }
 }
 @media (max-width: 768px) {
